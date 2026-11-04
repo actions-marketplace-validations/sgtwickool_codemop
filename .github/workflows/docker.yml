@@ -17,7 +17,7 @@ jobs:
       packages: write
 
     steps:
-    - uses: actions/checkout@v7
+    - uses: actions/checkout@v7.0.1
 
     # The runner's default docker driver can't export the GHA build cache
     - name: Set up Docker Buildx
